@@ -11,7 +11,7 @@ import 'package:get/get.dart';
 
 import 'otpScreen.dart';
 
-
+ late Size mq;
 void main () async{
   WidgetsFlutterBinding.ensureInitialized();
   Platform.isAndroid
